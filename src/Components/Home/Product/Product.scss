@@ -10,6 +10,7 @@
     min-width: 100px;
     background-color:  white;
     z-index: 1;
+    text-align: left;
 }
 
 .product_image{
@@ -23,10 +24,13 @@
     text-align: left;
     height: 100px;
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .product_price{
     margin-top: 5px;
+    text-align: left;
+    // width: 100%;
 }
 
 .add_to_basket_button{
@@ -41,5 +45,6 @@
 
 .product_rating{
     display: flex;
+    width: 100%;
 }
 
