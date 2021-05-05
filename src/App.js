@@ -8,6 +8,12 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
+          <Route path="/checkout">
+            {/* // ** Header Component */}
+            <Header />
+            <h1>Checkout Page</h1>
+          </Route>
+
           <Route path="/">
             {/* // ** Header Component */}
             <Header />
