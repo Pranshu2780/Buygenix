@@ -28,7 +28,6 @@ function Header() {
         <ShoppingCartIcon className="basket_icon" />
         <span className="count">0</span>
       </div>
-
     </div>
   );
 }

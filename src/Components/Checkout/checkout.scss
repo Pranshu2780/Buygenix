@@ -1,0 +1,21 @@
+::-webkit-scrollbar {
+  width: 14px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, #30ff30);
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, #00c6ff);
+}
+
+.checkout_image {
+  width: 100%;
+  margin-bottom: 0px;
+  z-index: -1;
+  object-fit: contain;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}

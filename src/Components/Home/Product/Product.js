@@ -15,14 +15,15 @@ function Product({ id, title, price, image, rating }) {
       </div>
 
       <div className="product_rating">
-        {Array(rating).fill().map((_,i)=>(
-           <p>🌟</p>
-        ))}
-       
+        {Array(rating)
+          .fill()
+          .map((_, i) => (
+            <p>🌟</p>
+          ))}
       </div>
 
       <img className="product_image" src={image} alt="" />
-      
+
       <button className="add_to_basket_button">Add to basket</button>
     </div>
   );
