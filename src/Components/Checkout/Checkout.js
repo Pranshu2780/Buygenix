@@ -5,9 +5,22 @@ import checkout from "./checkout.jpg";
 function Checkout() {
   return (
     <div className="checkout">
-      <div className="checkout_left">
-        <img className="checkout_image" src={checkout} alt="" />
+      <img className="checkout_image" src={checkout} alt="" />
+
+      <div className="container">
+    
+        <div className="basket_cart">
+          <h2 className="checkout_title">Your Cart</h2>
+          
+        </div>
+
+        <div className="checkout_right">
+          {/* Total amount to be paid */}
+          <h2 className="amount_heading">Total Amount</h2>
+        </div>
+    
       </div>
+    
     </div>
   );
 }

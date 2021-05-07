@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  background-color: rgba(234, 237, 237);
+}
+
 ::-webkit-scrollbar {
   width: 14px;
 }
@@ -15,7 +20,55 @@
 .checkout_image {
   width: 100%;
   margin-bottom: 0px;
-  z-index: -1;
-  object-fit: contain;
+  position: relative;
+  object-fit: cover;
+  height: 400px;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.container {
+  top: 61px;
+  position: absolute;
+  display: flex;
+  color: aqua;
+  background-color: transparent;
+  height: auto;
+  width: 1154px;
+  margin-left: 60px;
+}
+
+.basket_cart {
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-bottom: 70px;
+  height: auto;
+  width: 700px;
+  background-color: white;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.checkout_title {
+  color: black;
+}
+
+.checkout_right {
+  margin-top: 0px;
+  margin-bottom: 70px;
+  margin-left: 0px;
+  color: black;
+  height: 250px;
+  width: 450px;
+  background-color: white;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.amount_heading {
+  color: #30ff30;
 }
