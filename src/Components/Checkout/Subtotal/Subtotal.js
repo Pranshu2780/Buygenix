@@ -1,3 +1,5 @@
+// paying Section
+
 import React from "react";
 import "./Subtotal.scss";
 import CurrencyFormat from "react-currency-format";

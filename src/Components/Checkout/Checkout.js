@@ -1,3 +1,5 @@
+// Order Section
+
 import React from "react";
 import "./checkout.scss";
 import checkout from "./checkout.jpg";
