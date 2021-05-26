@@ -4,8 +4,11 @@ import Buygenix_logo from "./Buygenix_logo.png";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import { Link } from "react-router-dom";
+import { useStateValue } from "../StateProvider";
 
 function Header() {
+  const [{ basket }, dispatch] = useStateValue();
+
   return (
     <div className="header">
       {/*logo in Header*/}
@@ -31,7 +34,7 @@ function Header() {
       <Link to="/Checkout">
         <div className="basket">
           <ShoppingCartIcon className="basket_icon" />
-          <span className="count">0</span>
+          <span className="count">{basket?.length}</span>
         </div>
       </Link>
     </div>
