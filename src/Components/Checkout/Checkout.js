@@ -13,6 +13,9 @@ function Checkout() {
       <div className="container">
         <div className="basket_cart">
           <h2 className="checkout_title">Your Cart</h2>
+
+
+
         </div>
 
         <div className="checkout_right">
