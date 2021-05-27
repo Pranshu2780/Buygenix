@@ -14,7 +14,7 @@ function Home() {
       <div className="body_row">
         <Product
           id="11"
-          title="first product"
+          title="first productfirst productfirst productfirst productfirst productfirst productfirst productfirst productfirst productfirst productfirst productfirst productfirst productfirst productfirst productfirst productfirst productfirst productfirst productfirst product"
           price={20}
           image={powerbank}
           rating={3}
