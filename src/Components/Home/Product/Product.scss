@@ -25,12 +25,18 @@
   height: 100px;
   margin-bottom: 15px;
   width: 100%;
+  
+}
+
+.product_info>p{
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .product_price {
   margin-top: 5px;
   text-align: left;
-  // width: 100%;
+  
 }
 
 .add_to_basket_button {
@@ -39,6 +45,7 @@
   margin-top: 10px;
   border-color: yellow;
   color: #111;
+  padding: 8px;
   border-radius: 20px;
   color: aliceblue;
 }

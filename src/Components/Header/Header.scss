@@ -11,7 +11,7 @@
 
 // Header logo
 .header_logo {
-  height: 60px;
+  height: 40px;
   width: 160px;
   object-fit: contain;
   margin: 0 20px;
@@ -22,6 +22,8 @@
   background-color: #17d712;
   height: 22px !important;
   padding: 5px;
+  margin-left: -20px;
+  border-radius: 0 8px 8px 0;
 }
 
 //search_bar
@@ -92,4 +94,132 @@
   margin-top: 15px;
   padding-right: 12px;
   color: aliceblue;
+}
+
+// =================================================================
+
+// For Tablets and middle size screen
+
+@media (min-width: 600px) and (max-width: 1080px) {
+  .header_logo {
+    height: 60px;
+    width: 120px;
+    left: 0;
+  }
+  .search_icon {
+    background-color: #17d712;
+    height: 28px !important;
+    padding: 2px;
+    margin-left: -28px;
+    border-radius: 0 8px 8px 0px;
+  }
+  .sign_in {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    margin-right: 5px;
+    color: aliceblue;
+    font-size: 12px;
+    font-weight: 800;
+  }
+  .orders {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    margin-right: 5px;
+    color: aliceblue;
+    font-size: 12px;
+    font-weight: 800;
+  }
+  .prime {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7px;
+    margin-right: 5px;
+    color: aliceblue;
+    font-size: 12px;
+    font-weight: 800;
+  }
+  .basket {
+    display: flex;
+  }
+
+  .basket_icon {
+    background-color: #17d712;
+    padding: 2px;
+    margin: 5px;
+  }
+  .count {
+    margin-top: 7px;
+    padding-right: 5px;
+    color: aliceblue;
+  }
+}
+
+// Header Container
+.header {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+@media (max-width: 600px) {
+  .header_logo {
+    height: 60px;
+    width: 100px;
+    position: absolute;
+    top: 30px;
+  }
+  .search_icon {
+    background-color: #17d712;
+    height: 28px !important;
+    padding: 2px;
+    margin-left: -28px;
+    border-radius: 0 8px 8px 0px;
+  }
+  .sign_in {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 2px;
+    color: aliceblue;
+    font-size: 10px;
+    font-weight: 800;
+  }
+  .orders {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 2px;
+    color: aliceblue;
+    font-size: 10px;
+    font-weight: 800;
+  }
+  .prime {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 2px;
+    color: aliceblue;
+    font-size: 10px;
+    font-weight: 800;
+  }
+  .basket {
+    display: flex;
+  }
+
+  .basket_icon {
+    background-color: #17d712;
+    padding: 1px;
+    margin: 2px;
+  }
+  .count {
+    margin-top: 0px;
+    padding-right: 5px;
+    color: aliceblue;
+  }
 }

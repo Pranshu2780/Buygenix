@@ -27,29 +27,26 @@ html {
 }
 
 .container {
-  top: 61px;
-  position: absolute;
   display: flex;
   color: black;
   background-color: transparent;
   height: auto;
-  width: 1154px;
   margin-left: 60px;
 }
 
 .basket_cart {
   height: 100px;
-  margin-top: 50px;
   margin-left: 0px;
   margin-bottom: 70px;
   height: auto;
-  width: 700px;
   background-color: white;
   text-align: center;
   border: 1px solid gray;
   border-radius: 10px;
   padding: 20px;
   padding-bottom: 50px;
+  flex: 4;
+  margin-right: 20px;
 }
 
 .checkout_title {
@@ -62,11 +59,12 @@ html {
   margin-left: 0px;
   color: black;
   height: 250px;
-  width: 450px;
   background-color: white;
   text-align: center;
   border: 1px solid gray;
   border-radius: 10px;
+  flex: 2;
+  margin-right: 10px;
 }
 
 .amount_heading {
@@ -123,4 +121,48 @@ html {
 
 .checkProduct_price {
   padding-left: 10px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    // top: 100px;
+    // position: absolute;
+    display: flex;
+    color: black;
+    background-color: transparent;
+    height: auto;
+    // width: 1154px;
+    margin-left: 10px;
+    // justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .basket_cart {
+    height: 100px;
+    // margin-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 70px;
+    height: auto;
+    // width: 700px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1080px) {
+  .container {
+    // top: 100px;
+    // position: absolute;
+    display: flex;
+    color: black;
+    background-color: transparent;
+    height: auto;
+    // width: 1154px;
+    margin-left: 10px;
+    // justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
 }

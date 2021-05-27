@@ -1,18 +1,14 @@
-body {
-  //
-}
 .login {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 584px;
+  height: 730px;
   background-color: #1e2325;
 }
 
 .login_logo {
   margin-top: 25px;
   margin-bottom: 20px;
-  //   object-fit: contain;
   height: 50px;
   width: 100px;
 }
@@ -22,16 +18,11 @@ body {
   display: flex;
   flex-direction: column;
   color: #fff;
-  // background-color: red;
   position: absolute;
   height: fit-content;
   width: 250px;
-  left: 412px;
   top: 100px;
   padding-left: 40px;
-  // right: 1000px;
-  // margin-left: 1200px;
-  // text-align: center;
 }
 p {
   margin-top: 20px;
@@ -57,7 +48,6 @@ input {
   outline: none;
   border: none;
   border-radius: 8px;
-  //   background-color: aqua;
   color: #778899;
   padding-left: 10px;
 }
@@ -68,20 +58,16 @@ input {
 
 .signin {
   margin-top: 20px;
-  //   pad/ding: 5px;
   text-align: center;
   height: 26px;
   width: 215px;
   border-radius: 8px;
-  //   border: 1px solid #17d712;
   border: none;
   outline: none;
 }
 
 .signup {
   margin-top: 10px;
-  //   margin-left: 110px;
-  //   padding: 5px;
   text-align: center;
   height: 26px;
   width: 215px;
@@ -90,7 +76,6 @@ input {
   margin-bottom: 20px;
   outline: none;
   border: none;
-  // border: 1px solid #;
 }
 
 .signup:hover,
