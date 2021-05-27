@@ -12,13 +12,13 @@ body {
 .login_logo {
   margin-top: 25px;
   margin-bottom: 20px;
-//   object-fit: contain;
-height: 50px;
+  //   object-fit: contain;
+  height: 50px;
   width: 100px;
 }
 
-.container {
-    background-color:red;
+.log_container {
+  background-color: red;
   display: flex;
   flex-direction: column;
   color: #fff;
@@ -42,7 +42,7 @@ h1 {
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 20px;
-  padding-left:50px;
+  padding-left: 50px;
 }
 
 h5 {
@@ -73,8 +73,8 @@ input {
   height: 26px;
   width: 215px;
   border-radius: 8px;
-//   border: 1px solid #17d712;
-border: none;
+  //   border: 1px solid #17d712;
+  border: none;
   outline: none;
 }
 
