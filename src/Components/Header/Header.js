@@ -24,7 +24,9 @@ function Header() {
 
       {/* Div containing Sign In, Order, options */}
       <div className="header_right_container">
-        <div className="sign_in">Sign In</div>
+        <Link to= '/login' >
+          <div className="sign_in">Sign In</div>
+        </Link>
 
         <div className="orders">Orders</div>
 
