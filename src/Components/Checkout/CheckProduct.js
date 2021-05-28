@@ -29,7 +29,7 @@ function CheckProduct({ id, title, price, image, rating }) {
               <p>🌟</p>
             ))}
         </div>
-        <button onClick={removeFromBasket}>Remove</button>
+        <button className="remove_btn" onClick={removeFromBasket}>Remove</button>
       </div>
     </div>
   );

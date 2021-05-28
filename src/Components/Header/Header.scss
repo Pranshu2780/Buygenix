@@ -7,6 +7,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  padding: 4px;
 }
 
 // Header logo
@@ -46,6 +47,7 @@
 .header_right_container {
   display: flex;
   justify-content: space-evenly;
+  flex: .2;
 }
 
 .sign_in {
